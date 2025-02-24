@@ -1,27 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+*{
+  font-family: "Montserrat", sans-serif !important;
+  margin: 0;
+  padding : 0;
+  box-sizing : border-box;
+  font-weight: 500;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+.cl-cardBox{
+  box-shadow: none !important;
+}
+input{
+  height: 45px !important;
+  border-radius: 2px !important;
+  box-shadow: none !important;
+  border : 1px solid #8a8a8a !important;
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+.cl-formButtonPrimary{
+  background-color: #c53dbd !important;
+  height: 40px !important;
+  border-radius: 2px !important;
+  box-shadow: none !important;
+  color: White !important;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+.ant-form-item-label{
+  padding: 0 !important;
 }
