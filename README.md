@@ -34,7 +34,7 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 Hệ thống quản lý nhân sự này sử dụng nextjs 
 ![image](https://github.com/user-attachments/assets/7336dcee-6e2c-4490-afe7-6ed2cd0c9799)
 Demo Dự Án
-![image](https://github.com/user-attachments/assets/8a4829df-7ec4-426f-bbaf-c8f5790d25b0)
+
 
 
 
